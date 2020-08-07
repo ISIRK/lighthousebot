@@ -61,7 +61,7 @@ client.on('message', message => {
 		  // Set the color of the embed
 		  .setColor(0x1261E1)
 		  // Set the main content of the embed
-		  .setDescription('**HELP**\n \n Prefix - ! (Not Customizable for now)\n \n **COMMANDS:**\n \n!help - This Message\n !help commands - Commands List\n !help mod - Mod Commands\n !help support - Support Info\n \n**INFO**\n \n Bot Developer: ISIRK#0001\n Support Server/: https://discord.gg/7GHmRGp \n LiteBot Site: https://asksirk.com \n Version 0.0.2' )
+		  .setDescription('**HELP**\n \n Prefix - ! (Not Customizable for now)\n \n **COMMANDS:**\n \n!help - This Message\n !help commands - Commands List\n !help mod - Mod Commands\n !help support - Support Info\n \n**INFO**\n \n Bot Developer: ISIRK#0001\n Support Server: https://discord.gg/7GHmRGp \n GitHub Repository: https://github.com/ISIRK/lighthousebot \n LiteBot Site: https://asksirk.com \n Version 0.0.2' )
 		  .setFooter('ISIRK#0001')
 		// Send the embed to the same channel as the message
 		message.channel.send(embed);
@@ -103,7 +103,7 @@ client.on('message', message => {
 		  // Set the color of the embed
 		  .setColor(0x1261E1)
 		  // Set the main content of the embed
-		  .setDescription('**Support:**\n Bot Developer: ISIRK#0001\n Support Server/: https://discord.gg/7GHmRGp \n LiteBot Site: https://asksirk.com \n Version 0.0.2' )
+		  .setDescription('**Support:**\n Bot Developer: ISIRK#0001\n Support Server/: https://discord.gg/7GHmRGp \n GitHub Repository: https://github.com/ISIRK/lighthousebot \n LiteBot Site: https://asksirk.com \n Version 0.0.2' )
 		  .setFooter('ISIRK#0001')
 		// Send the embed to the same channel as the message
 		message.channel.send(embed);
@@ -117,5 +117,5 @@ client.on('message', message => {
 		message.channel.send('No U');
 	} 
 });
-//22369
+//25667
 client.login(token);
